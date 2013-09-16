@@ -12,6 +12,7 @@ require_once VENDOR_DIR . 'SimpleDBI/SimpleDBI.php';
 require_once LIB_DIR . 'log.php';
 require_once LIB_DIR . 'router.php';
 require_once LIB_DIR . 'database.php';
+require_once LIB_DIR . 'session.php';
 
 // helpers
 require_once HELPERS_DIR . 'html_helper.php';

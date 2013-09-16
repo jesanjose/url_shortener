@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>DietCake Starter</title>
+    <title>URL Shortener</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style>
@@ -17,7 +17,7 @@
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="<?php eh(url('/')) ?>">DietCake Starter</a>
+          <a class="brand" href="<?php eh(url('/')) ?>">URL Shortener</a>
         </div>
       </div>
     </div>

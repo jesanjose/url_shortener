@@ -36,4 +36,16 @@ class AppController extends Controller
             }
         }
     }
+
+    protected function setFlash($message, $flash_level = "info")
+    {
+        Session::set("flash-message", $message);
+        Session::set("flash-level", $flash_level);
+    }
+
+    protected function redirect($url)
+    {
+        header("Location: ".$url);
+        return;
+    }
 }
